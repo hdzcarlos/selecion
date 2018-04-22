@@ -25,7 +25,9 @@ public class Main {
              *          4 Almacenamos en un string lo que queremos recuperar con el metodo getString.
              *          5 Si queremos mostra todos los resultados de la tabla unicamente debemos introducir en un bucle while el metodo next del objeto resulSet.
              */
-         //   String crat = "CREATE TABLE losmayores21 (id INT NOT NULL AUTO_INCREMENT, nombre VARCHAR(30) NOT NULL, PRIMARY KEY(id));";
+         //   String crat =
+            // "CREATE DATABASE losmayores;\n"+
+            // "CREATE TABLE losmayores21 (id INT NOT NULL AUTO_INCREMENT, nombre VARCHAR(30) NOT NULL, PRIMARY KEY(id));";
           //  String ins = "INSERT INTO databasecien VALUES(null,'nombrePrueba')";
               String sele = " SELECT * FROM databasecien";
               ResultSet resultSet = statement.executeQuery(sele);
